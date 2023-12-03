@@ -45,6 +45,6 @@ def part2():
             answer += mult
 
     print(answer)
-    
+
 part1()
 part2()
