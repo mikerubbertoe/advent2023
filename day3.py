@@ -12,7 +12,8 @@ def part1():
 def part2():
     total = 0
     schematic = createMap()
-    symbols = set().add('*')
+    symbols = set()
+    symbols.add('*')
     for y in range(len(schematic)):
         for x in range(len(schematic[y])):
             if schematic[y][x] in symbols:
@@ -70,4 +71,5 @@ def createMap():
     print(symbols)
     return schematic
 
-part1()
+#part1()
+part2()
