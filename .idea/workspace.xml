@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c30b047-d1f6-4fda-8ed1-f451cdd17b44" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/day8.py" beforeDir="false" afterPath="$PROJECT_DIR$/day8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +25,29 @@
       <file leaf-file-name="day1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="1041" column="96" selection-start-line="1041" selection-start-column="96" selection-end-line="1041" selection-end-column="96" />
+            <state relative-caret-position="493">
+              <caret line="1028" column="5" lean-forward="true" selection-start-line="1028" selection-start-column="5" selection-end-line="1028" selection-end-column="5" />
               <folding>
                 <element signature="e#130#22084#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day9.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day9.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day9_input.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day9_input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -43,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day8.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="day8.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -94,27 +112,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day5.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="day6.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day6.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -152,6 +149,8 @@
         <option value="$PROJECT_DIR$/day7.py" />
         <option value="$PROJECT_DIR$/day8_input.txt" />
         <option value="$PROJECT_DIR$/day8.py" />
+        <option value="$PROJECT_DIR$/day9_input.txt" />
+        <option value="$PROJECT_DIR$/day9.py" />
       </list>
     </option>
   </component>
@@ -196,25 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.day8">
-    <configuration name="day2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="advent2023" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.day9">
     <configuration name="day3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="advent2023" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,20 +268,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="day9" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="advent2023" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day9.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.day2" />
       <item itemvalue="Python.day3" />
       <item itemvalue="Python.day5" />
       <item itemvalue="Python.day7" />
       <item itemvalue="Python.day8" />
+      <item itemvalue="Python.day9" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.day9" />
         <item itemvalue="Python.day8" />
         <item itemvalue="Python.day7" />
         <item itemvalue="Python.day5" />
         <item itemvalue="Python.day3" />
-        <item itemvalue="Python.day2" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +324,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32897604" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -646,16 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="1041" column="96" selection-start-line="1041" selection-start-column="96" selection-end-line="1041" selection-end-column="96" />
-          <folding>
-            <element signature="e#130#22084#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day7_input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16728">
@@ -679,11 +668,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="1028" column="5" lean-forward="true" selection-start-line="1028" selection-start-column="5" selection-end-line="1028" selection-end-column="5" />
+          <folding>
+            <element signature="e#130#22084#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day9_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
         </state>
       </provider>
     </entry>
