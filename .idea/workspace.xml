@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c30b047-d1f6-4fda-8ed1-f451cdd17b44" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8.py" beforeDir="false" afterPath="$PROJECT_DIR$/day8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day8_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day8_input.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,8 +47,8 @@
       <file leaf-file-name="day8.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+            <state relative-caret-position="126">
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -58,8 +59,8 @@
       <file leaf-file-name="day8_input.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day8_input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="859">
-              <caret line="795" column="16" selection-start-line="795" selection-start-column="16" selection-end-line="795" selection-end-column="16" />
+            <state relative-caret-position="68">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -196,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.day7">
+  <component name="RunManager" selected="Python.day8">
     <configuration name="day2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="advent2023" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -269,14 +270,34 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="day8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="advent2023" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.day2" />
       <item itemvalue="Python.day3" />
       <item itemvalue="Python.day5" />
       <item itemvalue="Python.day7" />
+      <item itemvalue="Python.day8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.day8" />
         <item itemvalue="Python.day7" />
         <item itemvalue="Python.day5" />
         <item itemvalue="Python.day3" />
@@ -301,12 +322,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14278187" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14278187" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -652,8 +673,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        <state relative-caret-position="126">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -662,8 +683,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day8_input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="795" column="16" selection-start-line="795" selection-start-column="16" selection-end-line="795" selection-end-column="16" />
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>

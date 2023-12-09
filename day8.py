@@ -9,11 +9,12 @@ def part1():
     with open("day8_input.txt", 'r') as f:
         for line in f:
             if not instructions:
-                instructions = [x for x in line]
-            elif line:
+                instructions = [x for x in line.strip()]
+            elif line != '\n':
                 current, left, right = re.findall('([A-Z0-9]{3})', line)
                 path[current] = (left, right)
-
+        print(path)
+        print(instructions)
         size = len(instructions)
         current = 'AAA'
         while current != 'ZZZ':
@@ -25,8 +26,6 @@ def part1():
 
 
 def part2():
-    index = 0
-    steps = 0
     instructions = []
     currents = []
     leastCommon = 1
@@ -34,8 +33,8 @@ def part2():
     with open("day8_input.txt", 'r') as f:
         for line in f:
             if not instructions:
-                instructions = [x for x in line]
-            elif line:
+                instructions = [x for x in line.strip()]
+            elif line != '\n':
                 current, left, right = re.findall('([A-Z0-9]{3})', line)
                 path[current] = (left, right)
                 if current.endswith('A'):
@@ -50,7 +49,7 @@ def part2():
                 index = (index + 1) % size
                 current = path[current][0] if nextInstruction == 'L' else path[current][1]
                 steps += 1
-            leastCommon = math.lcm(leastCommon, steps)
+            leastCommon = abs(leastCommon * steps) // math.gcd(leastCommon, steps)
         print(leastCommon)
 
 
