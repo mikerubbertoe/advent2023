@@ -13,8 +13,6 @@ def part1():
             elif line != '\n':
                 current, left, right = re.findall('([A-Z0-9]{3})', line)
                 path[current] = (left, right)
-        print(path)
-        print(instructions)
         size = len(instructions)
         current = 'AAA'
         while current != 'ZZZ':
