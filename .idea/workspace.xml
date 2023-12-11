@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c30b047-d1f6-4fda-8ed1-f451cdd17b44" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/day9.py" beforeDir="false" afterPath="$PROJECT_DIR$/day9.py" afterDir="false" />
-    </list>
+    <list default="true" id="9c30b047-d1f6-4fda-8ed1-f451cdd17b44" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,11 +32,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day9.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="day9.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day9.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+            <state relative-caret-position="187">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day10.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day10.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day10_input.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day10_input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="139" column="140" lean-forward="true" selection-start-line="139" selection-start-column="140" selection-end-line="139" selection-end-column="140" />
             </state>
           </provider>
         </entry>
@@ -91,27 +107,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="day4.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -151,14 +146,16 @@
         <option value="$PROJECT_DIR$/day8.py" />
         <option value="$PROJECT_DIR$/day9_input.txt" />
         <option value="$PROJECT_DIR$/day9.py" />
+        <option value="$PROJECT_DIR$/day10.py" />
+        <option value="$PROJECT_DIR$/day10_input.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="135" />
-    <option name="y" value="-28" />
-    <option name="width" value="1362" />
-    <option name="height" value="794" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -180,7 +177,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../advent2022/day12" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -195,8 +192,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.day9">
-    <configuration name="day3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.day10">
+    <configuration name="day10" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="advent2023" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -208,7 +205,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -287,19 +284,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.day3" />
       <item itemvalue="Python.day5" />
       <item itemvalue="Python.day7" />
       <item itemvalue="Python.day8" />
       <item itemvalue="Python.day9" />
+      <item itemvalue="Python.day10" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.day10" />
         <item itemvalue="Python.day9" />
         <item itemvalue="Python.day8" />
         <item itemvalue="Python.day7" />
         <item itemvalue="Python.day5" />
-        <item itemvalue="Python.day3" />
       </list>
     </recent_temporary>
   </component>
@@ -322,14 +319,14 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14278187" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50052685" side_tool="true" weight="0.33006537" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33006537" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49947312" visible="true" weight="0.33006537" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -351,8 +348,13 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="65" />
+      <option name="time" value="75" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="tunnel[1][1].west" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -695,8 +697,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day9.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        <state relative-caret-position="187">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="139" column="140" lean-forward="true" selection-start-line="139" selection-start-column="140" selection-end-line="139" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
